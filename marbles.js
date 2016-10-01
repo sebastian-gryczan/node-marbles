@@ -66,11 +66,11 @@ var skins = [
     'gold',
     'neonpink',
     'beachball',
-    // 'pokeball',
     'pool8',
     'chaosred',
     'chaosblue',
     'chaosgreen',
+    'chaosteal',
 ];
 
 function getRandom(min, max) {
