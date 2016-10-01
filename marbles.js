@@ -71,6 +71,11 @@ var skins = [
     'chaosblue',
     'chaosgreen',
     'chaosteal',
+    'sun',
+    'rock',
+    'chaosyellow',
+    'chaospurple',
+    'mercury',
 ];
 
 function getRandom(min, max) {
