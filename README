@@ -1,0 +1,7 @@
+This is a simple twitch chat bot written in node.js
+
+It will connect to https://www.twitch.tv/marbleracing and start playing. It will also open a local port on 3000 to allow for easy access to the channel chat.
+
+This has been containerized based on the node:argon base image. Build it with:
+
+docker build -t sgryczan/node-marbles
