@@ -14,8 +14,8 @@ var multiball = "false";
 var counter = 5;
 
 // Time to wait before chatting
-var minwait = 2000;
-var maxwait = 5000;
+var minwait = 200;
+var maxwait = 500;
 var multitimeout = 2000;
 
 app.get('/', function(req, res){
