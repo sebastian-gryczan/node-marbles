@@ -4,4 +4,4 @@ It will connect to https://www.twitch.tv/marbleracing and start playing. It will
 
 This has been containerized based on the node:argon base image. Build it with:
 
-docker build -t sgryczan/node-marbles
+docker build -t sgryczan/node-marbles .

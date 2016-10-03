@@ -14,8 +14,8 @@ var multiball = "false";
 var counter = 5;
 
 // Time to wait before chatting
-var minwait = 200;
-var maxwait = 500;
+var minwait = 1000;
+var maxwait = 5000;
 var multitimeout = 2000;
 
 app.get('/', function(req, res){
@@ -44,8 +44,8 @@ var options = {
         reconnect: true
     },
     identity: {
-        username: "bootyclub",
-        password: "oauth:zv09ee3folsj1l9u9q8o7m8z1n6jd9"
+        username: "squawkers_mckaw",
+        password: "oauth:jcjev9821tjqc3g7j8851xgihvei1f"
     },
     channels: [channel]
 };
@@ -67,14 +67,14 @@ var skins = [
     'neonpink',
     'beachball',
     'pool8',
-    'chaosred',
-    'chaosblue',
-    'chaosgreen',
-    'chaosteal',
+    'pool5',
+    'pool6',
+    'pool7',
+    'pool13',
     'sun',
     'rock',
-    'chaosyellow',
-    'chaospurple',
+    'pool14',
+    'pool10',
     'mercury',
 ];
 
